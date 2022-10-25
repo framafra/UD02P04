@@ -1,0 +1,16 @@
+INSTALACION DEL SISTEMA BLOGIN
+
+1.- Copiar y descomprimir el archivo en la carpeta en la carpeta de publicación de apache /var/www/html/UD02P04.
+
+2.- Crear la BBDD mediante el archivo schema.sql, mediante la CLI de MySQL o mediante PHPMyAdmin.
+
+3.- Modificar el archivo ...\UD02P04\admin\core\controller\Database.php para los datos asociados al acceso a la base de datos.
+
+4.- Acceder al BACKEND de administrador http://ipservidorweb/admin. 
+  Datos de Acceso.-
+    Usuario: admin
+    Password: admin
+
+    Desde el BACKEND podrás crear artículos.
+
+5.- Acceder a la aplicación http://ipservidorweb.
